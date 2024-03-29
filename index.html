@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <!-- line liên hệ -->
+    <div class="lienhe">
+        <h3 style="display: none;" id="hello" class="hello"></h3>
+        <ul class="choices">
+            <li class="choice"><a href="#">Liên hệ</a></li>
+            <li class="choice"><a href="#">Hỗ trợ</a></li>
+            <li class="choice" ><a href="dangky.html" id="dk">Đăng ký</a></li>
+            <li class="choice"><a href="#">Chính sách</a></li>
+        </ul>
+    </div>
+<!-- phần thanh tiêu đề -->
+    <nav class="navbar">
+        <div class="left">
+        <i class='bx bx-menu icon-menu'></i>
+        <div class="menu-list">
+            <div class="menu-list-item">
+                <i class='bx bxs-home'></i>
+                <p>Trang chủ</p>
+            </div>
+            <div class="menu-list-item">
+                <i class='bx bxs-cake' ></i>
+                <p>Sản phẩm</p>
+            </div>
+            <div class="menu-list-item">
+                <img src="assets/oven.png" alt="">
+                <p>Làm bánh</p>
+            </div>
+            <div class="menu-list-item">
+                <i class='bx bx-info-circle'></i>
+                <p>Thông tin </p>
+            </div>
+            <div class="menu-list-item">
+                <img src="assets/online-support.png" alt="">
+                <a href="./dangnhap.html"><p>Tư vấn khách hàng</p></a>
+            </div>
+            <hr>
+            <div class="menu-help">
+                <p>Danh mục hỗ trợ sản phẩm</p>
+                <i class='bx bx-chevron-right' ></i>
+            </div>
+        </div>
+        <a href="index.html">
+            <h3 class="shop"><span>AnhQuang</span> Shop</h3>
+        </a>
+    </div>
+
+        <div class="tab" id="tab">
+            <ul>
+                <li>Thông tin bán buôn</li>
+                <li>Sản phẩm làm bánh</li>
+                <a href="./BTL_TKW/html/index.html"><li>Làm bánh</li></a>
+            </ul>
+        </div>
+        
+        <div class="right">
+            <div class="search-box" id="search-box">
+            <i class='bx bx-search'></i>
+            <form action="">
+                <input type="text">
+            </form>
+            <i class='bx bx-x' id="exit"></i>
+        </div>
+            <i class='bx bx-search' id="search" ></i>
+
+           <a href="dangnhap.html" id="dn"> <i class='bx bxs-user' ></i></a>
+            <i class='bx bxs-cart' ></i>
+        </div>
+        
+    </nav>
+    <section class="hero">
+        <div class="dau">
+            <div class="dau-review">
+                <img src="assets/googleicons-09-512-1.png" alt="">
+                <p class="yellow">5.0</p>
+                <img src="assets/star.png" class="dau-star" alt="">
+                <p>(420)</p>
+            </div>
+            <h3>Anh Quang Shop</h3>
+            <h4>since 1990</h4>
+            <p>Phân phối dụng cụ làm bánh cũng như nguyên vật liệu cho các nhà hàng, khách sạn lớn như Sheraton, Metropole…</p>
+           <div class="button">
+            <button class="cam">Xem sản phẩm</button>
+            <button class="trong">Về Anh Quang shop</button>
+        </div>
+            
+        </div>
+        <div class="reviews">
+            <h4>Google</h4>
+            <div class="stars">
+                <img src="assets/star.png">
+                <img src="assets/star.png">
+                <img src="assets/star.png">
+                <img src="assets/star.png">
+                <img src="assets/star.png">
+            </div>
+            <div class="review">
+                <p>(60+review)</p>
+            </div>
+            <i class='bx bx-chevron-down down'></i>
+        </div>
+        
+    </section>
+
+    <section class="hot hot-dau">
+        <div class="hd">
+        <div class="hot-deal">
+            <div class="hot-deal-line"></div>
+            <div class="hd-box">
+                <i class='bx bxs-hot'></i>
+                <p>Hot Deal</p>
+                <i class='bx bxs-hot'></i>
+            </div>
+            <div class="hot-deal-line"></div>
+        </div>
+        </div>
+        <div class="slide">
+            <i class='bx bx-left-arrow-alt' id="prev"></i>
+            <div class="list" id="slide">
+               
+                    <div class="card item" id=""> 
+                        <a href="./Bai_tap_lon_LHL-main/index.html">
+                    <div class="card-dau">
+                        <img src="assets/bo-uc-pilot-1kg-1.png" alt="">
+                        <div class="card-label">
+                            <i class='bx bxs-hot'></i>
+                            <p>-10%</p>
+                        </div>
+                        <div class="card-sale">
+                            <p class="label-red">Sale</p>
+                            <p class="label-yellow">Tặng 1</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p>Bơ lạc Úc Pilot</p>
+                        <div class="card-info-mid">
+                            <div class="card-info-mid-dau">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-gray.png">
+                            </div>
+                            <div class="card-info-mid-status">
+                                <p>Bán chạy</p>
+                            </div>
+                        </div>
+                        <div class="card-info-bot">
+                            <div class="price">
+                            <h3>26.000</h2>
+                            <p>Giá gốc: <del>29.000</del></p>
+                            </div>
+                            <h4>Kho:12</h4>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+            
+            
+                <div class="card item" id="">
+                    <a href="./Bai_tap_lon_LHL-main/index.html">
+                    <div class="card-dau">
+                        <img src="assets/topping-vivo-hl.webp" alt="">
+                        <div class="card-label">
+                            <i class='bx bxs-hot'></i>
+                            <p>-20%</p>
+                        </div>
+                        <div class="card-sale">
+                            <p class="label-red">Sale</p>
+                            <p class="label-blue">Free Ship</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p>Kem VIVO</p>
+                        <div class="card-info-mid">
+                            <div class="card-info-mid-dau">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-gray.png">
+                            <img src="assets/star-gray.png">
+                            </div>
+                            <div class="card-info-mid-status">
+                                <p>Còn Hàng</p>
+                            </div>
+                        </div>
+                        <div class="card-info-bot">
+                            <div class="price">
+                            <h3>70.000</h2>
+                            <p>Giá gốc: <del>76.000</del></p>
+                            </div>
+                            <h4>Kho:38</h4>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+            
+           
+                <div class="card item" id="">
+                     <a href="./Bai_tap_lon_LHL-main/index.html">
+                    <div class="card-dau">
+                        <img src="assets/bot-lam-banh.webp" alt="">
+                        <div class="card-label">
+                            <i class='bx bxs-hot'></i>
+                            <p>-15%</p>
+                        </div>
+                        <div class="card-sale">
+                            <p class="label-red">Sale</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p>Bột Morigana</p>
+                        <div class="card-info-mid">
+                            <div class="card-info-mid-dau">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            </div>
+                            <div class="card-info-mid-status">
+                                <p>Còn Hàng</p>
+                            </div>
+                        </div>
+                        <div class="card-info-bot">
+                            <div class="price">
+                            <h3>45.000</h2>
+                            <p>Giá gốc: <del>56.000</del></p>
+                            </div>
+                            <h4>Kho:27</h4>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+                
+                
+                <div class="card item" id="">
+                    <a href="./Bai_tap_lon_LHL-main/index.html">
+                    <div class="card-dau">
+                        <img src="assets/bot-banh-mi-bread-flour-uniflour-2kg-1.webp" alt="">
+                        <div class="card-label">
+                            <i class='bx bxs-hot'></i>
+                            <p>-50%</p>
+                        </div>
+                        <div class="card-sale">
+                            <p class="label-red">Sale</p>
+                            <p class="label-blue">Free Ship</p>
+                            <p class="label-yellow">Tặng 1</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p>Bột UniFlour</p>
+                        <div class="card-info-mid">
+                            <div class="card-info-mid-dau">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-gray.png">
+                            <img src="assets/star-gray.png">
+                            </div>
+                            <div class="card-info-mid-status">
+                                <p>Bán chạy</p>
+                            </div>
+                        </div>
+                        <div class="card-info-bot">
+                            <div class="price">
+                            <h3>24.000</h2>
+                            <p>Giá gốc: <del>48.000</del></p>
+                            </div>
+                            <h4>Kho:10</h4>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+            
+            
+                <div class="card item" id="">
+                    <a href="./Bai_tap_lon_LHL-main/index.html">
+                    <div class="card-dau">
+                        <img src="assets/pudding.jfif" alt="">
+                        <div class="card-label">
+                            <i class='bx bxs-hot'></i>
+                            <p>-5%</p>
+                        </div>
+                        <div class="card-sale">
+                            <p class="label-red">Sale</p>
+                            <p class="label-blue">Free Ship</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p>Bột Pudding</p>
+                        <div class="card-info-mid">
+                            <div class="card-info-mid-dau">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            </div>
+                            <div class="card-info-mid-status">
+                                <p>Bán chạy</p>
+                            </div>
+                        </div>
+                        <div class="card-info-bot">
+                            <div class="price">
+                            <h3>35.000</h2>
+                            <p>Giá gốc: <del>37.000</del></p>
+                            </div>
+                            <h4>Kho:20</h4>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+            
+            </div>
+            <i class='bx bx-right-arrow-alt' id="next"></i>
+        </div>
+    </section>
+
+    <div class="category">
+        <div class="ct-dau">
+            
+                <div class="ct-dau-line-ngan"></div>
+                <div class="ct-box">
+                    <p>Danh mục sản phẩm</p>
+                </div>
+                <div class="ct-dau-line-dai"></div>
+    
+        </div>
+        <div class="ct-list" id="slide">
+            <div class="ct-card">
+                <h4>Nguyên liệu làm bánh</h4>
+                <div class="ct-card-list">
+                    <div class="ct-card-item"> 
+                    <img src="assets/bo.jfif" alt="">
+                    <p>Bơ</p>
+                </div>
+                    <div class="ct-card-item"> 
+                    <img src="assets/trung.webp" alt="">
+                    <p>Trứng</p>
+                </div>
+                    <div class="ct-card-item"> 
+                    <img src="assets/duong.jpg" alt="">
+                    <p>Đường</p>
+                </div>
+                    <div class="ct-card-item"> 
+                    <img src="assets/chocolate-den-345.jpg" alt="">
+                    <p>Chocolate</p>
+                </div>
+                   
+                </div>
+                <h5>Xem sản phẩm</h5>
+            </div>
+            
+            <div class="ct-card">
+                <h4>Thiết bị làm bánh</h4>
+                <div class="ct-card-list">
+                    <div class="ct-card-item-2"> 
+                    <img src="assets/bake.png" alt="">
+                    <p>Thiết bị chuyên dụng</p>
+                </div>
+                  
+                    <div class="ct-card-item"> 
+                    <img src="assets/cong-cu.jpg" alt="">
+                    <p>Công cụ </p>
+                </div>
+                    <div class="ct-card-item"> 
+                    <img src="assets/khuon.jfif" alt="">
+                    <p>Khuôn bánh</p>
+                </div>
+                   
+                </div>
+                <h5>Xem sản phẩm</h5>
+            </div>
+            <div class="ct-card">
+                <h4>Thực phẩm</h4>
+                <div class="ct-card-list">
+                    <div class="ct-card-item"> 
+                    <img src="assets/dau.jpg" alt="">
+                    <p>Dâu tây</p>
+                </div>
+                    <div class="ct-card-item"> 
+                    <img src="assets/chuoi.jpg" alt="">
+                    <p>Chuối</p>
+                </div>
+                    <div class="ct-card-item"> 
+                    <img src="assets/mam.jpg" alt="">
+                    <p>Mâm xôi</p>
+                </div>
+                    <div class="ct-card-item"> 
+                    <img src="assets/viet.jpg" alt="">
+                    <p>Việt quất</p>
+                </div>
+                   
+                </div>
+                <h5>Xem sản phẩm</h5>
+            </div>
+            <div class="ct-card">
+                <h4>Các loại bánh</h4>
+                <div class="ct-card-list">
+                    <div class="ct-card-item"> 
+                    <img src="assets/gato.webp" alt="">
+                    <p>Bánh gato</p>
+                </div>
+                    <div class="ct-card-item"> 
+                    <img src="assets/flan.jpg" alt="">
+                    <p>Bánh flan</p>
+                </div>
+                    <div class="ct-card-item"> 
+                    <img src="assets/cookie.jpeg" alt="">
+                    <p>Bánh quy</p>
+                </div>
+                    <div class="ct-card-item"> 
+                    <img src="assets/donut.jpg" alt="">
+                    <p>Bánh Donut</p>
+                </div>
+                   
+                </div>
+                <h5>Xem sản phẩm</h5>
+            </div>
+            <div class="ct-card">
+                <h4>Bột gia vị</h4>
+                <div class="ct-image">
+                <img src="assets/bot.jpg">
+                </div>
+                <h5>Xem sản phẩm</h5>
+            </div>
+
+            <div class="ct-card">
+                <h4>Bột làm bánh</h4>
+                <div class="ct-image">
+                <img src="assets/bot-mi-den-darkrye-plus-5kg-a1-4j9.png">
+                </div>
+                <h5>Xem sản phẩm</h5>
+            </div>
+            <div class="ct-card">
+                <h4>Trang phục</h4>
+                <div class="ct-image">
+                <img src="assets/gang.jpg">
+                </div>
+                <h5>Xem sản phẩm</h5>
+            </div>
+            <div class="ct-card">
+                <h4>Cân tiểu ly</h4>
+                <div class="ct-image">
+                <img src="assets/can.jpg">
+                </div>
+                <h5>Xem sản phẩm</h5>
+            </div>
+        </div>
+    </div>
+    <section class="hot hot-sau">
+        <div class="hd">
+        <div class="hot-deal">
+            <div class="hot-deal-line"></div>
+            <div class="hd-box">
+                <i class='bx bxs-hot'></i>
+                <p>Trending</p>
+                <i class='bx bxs-hot'></i>
+            </div>
+            <div class="hot-deal-line"></div>
+        </div>
+        </div>
+        <div class="slide">
+            <i class='bx bx-left-arrow-alt' id="prev-trending"></i>
+            <div class="list" id="slide-trending">
+               
+                <div class="card item-trending" >
+                     <a href="./Bai_tap_lon_LHL-main/index.html">
+                    <div class="card-dau">
+                        <img src="assets/syrup.png" alt="">
+                        <div class="card-sale">
+                            
+                            <p class="label-blue">Free Ship</p>
+                            <p class="label-yellow">Tặng 1</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p>Sốt HerShey</p>
+                        <div class="card-info-mid">
+                            <div class="card-info-mid-dau">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-gray.png">
+                            </div>
+                            <div class="card-info-mid-status">
+                                <p>Bán chạy</p>
+                            </div>
+                        </div>
+                        <div class="card-info-bot">
+                            <div class="price">
+                            <h3>67.000</h2>
+                            </div>
+                            <h4>Kho:16</h4>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+            
+            
+                <div class="card item-trending" >
+                    <a href="./Bai_tap_lon_LHL-main/index.html">
+                    <div class="card-dau">
+                        <img src="assets/gelatine.jpg" alt="">
+                        <div class="card-label">
+                            <i class='bx bxs-hot'></i>
+                            <p>-30%</p>
+                        </div>
+                        <div class="card-sale">
+                            <p class="label-red">Sale</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p>Gelatine Gelita</p>
+                        <div class="card-info-mid">
+                            <div class="card-info-mid-dau">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-gray.png">
+                            <img src="assets/star-gray.png">
+                            </div>
+                            <div class="card-info-mid-status">
+                                <p>Còn Hàng</p>
+                            </div>
+                        </div>
+                        <div class="card-info-bot">
+                            <div class="price">
+                            <h3>22.000</h2>
+                            <p>Giá gốc: <del>35.000</del></p>
+                            </div>
+                            <h4>Kho:57</h4>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+            
+            
+                <div class="card item-trending" >
+                    <a href="./Bai_tap_lon_LHL-main/index.html">
+                    <div class="card-dau">
+                        <img src="assets/baking-soda.jpg" alt="">
+                        <div class="card-sale">
+                            <p class="label-yellow">Tặng 1</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p>Baking soda</p>
+                        <div class="card-info-mid">
+                            <div class="card-info-mid-dau">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            </div>
+                            <div class="card-info-mid-status">
+                                <p>Bán chạy</p>
+                            </div>
+                        </div>
+                        <div class="card-info-bot">
+                            <div class="price">
+                            <h3>23.000</h2>
+                            </div>
+                            <h4>Kho:32</h4>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+            
+            
+                <div class="card item-trending" >
+                    <a href="./Bai_tap_lon_LHL-main/index.html">
+                    <div class="card-dau">
+                        <img src="assets/kem.png" alt="">
+                        <div class="card-label">
+                            <i class='bx bxs-hot'></i>
+                            <p>-25 %</p>
+                        </div>
+                        <div class="card-sale">
+                            <p class="label-red">Sale</p>
+                            <p class="label-yellow">Tặng 1</p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p>Kem làm bánh Base</p>
+                        <div class="card-info-mid">
+                            <div class="card-info-mid-dau">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            </div>
+                            <div class="card-info-mid-status">
+                                <p>Bán chạy</p>
+                            </div>
+                        </div>
+                        <div class="card-info-bot">
+                            <div class="price">
+                            <h3>34.000</h2>
+                            <p>Giá gốc: <del>43.000</del></p>
+                            </div>
+                            <h4>Kho:28</h4>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+            
+            
+                <div class="card item-trending" >
+                    <a href="./Bai_tap_lon_LHL-main/index.html">
+                    <div class="card-dau">
+                        <img src="assets/sua.jpg" alt="">
+                        <div class="card-label">
+                            <i class='bx bxs-hot'></i>
+                            <p>-23%</p>
+                        </div>
+                        <div class="card-sale">
+                            <p class="label-red">Sale</p>
+                            <p class="label-blue">Free Ship</p>
+                            
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <p>Sữa KingCare</p>
+                        <div class="card-info-mid">
+                            <div class="card-info-mid-dau">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-1Eo.png">
+                            <img src="assets/star-gray.png">
+                            </div>
+                            <div class="card-info-mid-status">
+                                <p>Còn Hàng</p>
+                            </div>
+                        </div>
+                        <div class="card-info-bot">
+                            <div class="price">
+                            <h3>35.000</h2>
+                            <p>Giá gốc: <del>48.000</del></p>
+                            </div>
+                            <h4>Kho:59</h4>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+            
+            </div>
+            <i class='bx bx-right-arrow-alt' id="next-trending"></i>
+        </div>
+    </section>
+    <div class="category">
+        <div class="ct-dau">
+            
+                <div class="ct-dau-line-ngan"></div>
+                <div class="ct-box">
+                    <p>Bài viết nổi bật</p>
+                </div>
+                <div class="ct-dau-line-dai"></div>
+    
+        </div>
+        <div class="slide">
+            <i class='bx bx-left-arrow-alt' id="prev-nb"></i>
+            <div class="list" id="slide-nb">
+                <div class="ct-slide-card item-nb" >
+                    <img src="assets/cach-lam-banh-dong-xu-pho-mai-1-4BH.png" alt="">
+                    <div class="ct-slide-text">
+                        <h3>Cách làm bánh đồng xu phô mai</h3>
+                        <div class="ct-slide-writter">
+                            <img src="assets/ellipse-1-bg-17D.png" alt="">
+                            <div class="ct-slide-info">
+                            <h4>Toothless</h4>
+                            <p>05/02/2021</p>
+                        </div>
+                            
+                        </div>
+                        <h5>Xem bài viết</h5>
+                    </div>
+                </div>
+                <div class="ct-slide-card item-nb" >
+                    <img src="assets/banh-ran.webp" alt="">
+                    <div class="ct-slide-text">
+                        <h3>Cách làm bánh rán doraemon</h3>
+                        <div class="ct-slide-writter">
+                            <img src="assets/gordon.jpg" alt="">
+                            <div class="ct-slide-info">
+                            <h4>Gordon Ramsay</h4>
+                            <p>1/3/2024</p>
+                        </div>
+                            
+                        </div>
+                        <h5>Xem bài viết</h5>
+                    </div>
+                </div>
+                <div class="ct-slide-card item-nb" >
+                    <img src="assets/man.jpg" alt="">
+                    <div class="ct-slide-text">
+                        <h3>Cách làm bánh cho người trong hang</h3>
+                        <div class="ct-slide-writter">
+                            <img src="assets/10.webp" alt="">
+                            <div class="ct-slide-info">
+                            <h4>Erik Ten Hag</h4>
+                            <p>21/2/2024</p>
+                        </div>
+                            
+                        </div>
+                        <h5>Xem bài viết</h5>
+                    </div>
+                </div>
+                <div class="ct-slide-card item-nb" >
+                    <img src="assets/sung-bo.jpg" alt="">
+                    <div class="ct-slide-text">
+                        <h3>Cách làm bánh sừng bò</h3>
+                        <div class="ct-slide-writter">
+                            <img src="assets/elon.jpg" alt="">
+                            <div class="ct-slide-info">
+                            <h4>Elon Musk</h4>
+                            <p>1/3/2024</p>
+                        </div>
+                            
+                        </div>
+                        <h5>Xem bài viết</h5>
+                    </div>
+                </div>
+                <div class="ct-slide-card item-nb" >
+                    <img src="assets/humberger.jpg" alt="">
+                    <div class="ct-slide-text">
+                        <h3>Cách làm bánh humberger</h3>
+                        <div class="ct-slide-writter">
+                            <img src="assets/donal.avif" alt="">
+                            <div class="ct-slide-info">
+                            <h4>Donald Trump</h4>
+                            <p>29/02/2024</p>
+                        </div>
+                            
+                        </div>
+                        <h5>Xem bài viết</h5>
+                    </div>
+                </div>
+            </div>
+            <i class='bx bx-right-arrow-alt' id="next-nb"></i>
+        </div>
+        
+    </div>
+    <footer class="footer">
+        <div class="footer-lienhe">
+            <h2>Liên Hệ</h2>
+            <h3>Anh Quang Shop</h3>
+            <div class="ft-info">
+            <p><b>»Trụ sở:</b> số 114 ngõ 53 đường Nguyễn Khoái, quận Hai Bà Trưng, thành phố Hà Nội.</p>
+            <p>Điện thoại: <u>0243.984.0414</u> / <u>0982287744</u></p>
+            <p><b>»Cơ sở 2:</b> Số 74 Thái Thịnh, Đống Đa, Hà Nội Điện </p>
+            <p>Điện thoại: <u>0243.225.2367</u> / <u>0352460022</u></p>
+            <p><b>»Cơ sở 3:</b> 175 Khâm Thiên, Đống Đa, Hà Nội Điện </p>
+            <p>Điện thoại: <u> 02432767587</u> / <u>0345230545</u></p>
+            <p><b>»Email:</b> longquangco.hn@gmail.com </p>
+        </div>
+    </div>
+        <div class="chinhsach">
+            <h2>Chính sách</h2>
+            <ul>
+                <li>Giới thiệu về Anh Quang Shop</li>
+                <li>Chính sách vận chuyển & giao hàng</li>
+                <li>Chính sách trả hàng và hoàn tiền</li>
+                <li>Chính sách bảo mật thông tin</li>
+                <li>Thông tin bán buôn</li>
+            </ul>
+        </div>
+        <div class="Danhmucsp">
+            <h2>Danh mục sản phẩm</h2>
+            <ul>
+                <li>Dụng cụ làm bánh</li>
+                <li>Nguyên liệu làm bánh</li>
+                <li>Cửa hàng đồ làm bánh Anh Quang</li>
+                <li>Cửa hàng đồ làm bánh gần đây</li>
+                <li>Shop bán đồ làm bánh Hà Nội</li>
+            </ul>
+        </div>
+        <div class="googlemap">
+            <h2>Google Map</h2>
+        </div>
+    </footer>
+    <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+      </a>
+    <script src="index.js" type="module"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="dangnhap.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dangnhap">
+        <nav>
+        <i class='bx bx-menu icon-menu'></i>
+        <a href="index.html">
+            <h3><span>AnhQuang</span> Shop</h3>
+        </a>
+        <div class="menu-list">
+            <div class="menu-list-item">
+                <i class='bx bxs-home'></i>
+                <p>Trang chủ</p>
+            </div>
+            <div class="menu-list-item">
+                <img src="assets/online-support.png" alt="">
+                <p>Trang chủ</p>
+            </div>
+            <div class="menu-list-item">
+                <img src="assets/online-support.png" alt="">
+                <p>Trang chủ</p>
+            </div>
+            <div class="menu-list-item">
+                <img src="assets/online-support.png" alt="">
+                <p>Trang chủ</p>
+            </div>
+            <div class="menu-list-item">
+                <img src="assets/online-support.png" alt="">
+                <p>Trang chủ</p>
+            </div>
+            <div class="line"></div>
+            <div class="menu-help">
+                <p>Danh mục hỗ trợ sản phẩm</p>
+                <i class='bx bx-chevron-right' ></i>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+    <div class="box">
+        <h3>Đăng nhập</h3>
+        <form>
+            <input type="email" placeholder="TÊN ĐĂNG NHẬP" id="login_email"  required><br>
+            <input type="password" placeholder="MẬT KHẨU" id="login_password"  required>
+        </form>
+        <div class="logo">
+            <div class="logo-item">
+                <img src="assets/facebook-logo-png-white-1-BCs.png" alt="">
+            </div>
+            <div class="logo-item">
+                <img src="assets/googleicons-09-512-1-Jhm.png" alt="">
+            </div>
+        </div>
+        <form class="checkbox">
+            <input type="checkbox" id="ghinho" name="ghinho">
+            <label for="ghinho"> Lưu đăng nhập</label>
+            
+        </form>
+       
+        <div class="xuat" id="login">
+            <i class='bx bx-chevron-right'></i>
+        </div>
+        <div class="box-ft">
+           <a href="quenmk.html"><p>Quên mật khẩu ?</p></a>
+            <a href="dangky.html"><p>Tạo tài khoản</p></a>
+        </div>
+    </div>
+    </div>
+</div>
+<script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-database.js"></script>
+<script src="dangnhap.js"></script>
+<script type="module" src="auth-dangnhap.js"></script>
+</body>
+</html>
